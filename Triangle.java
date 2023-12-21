@@ -12,6 +12,6 @@ public class Triangle {
     int sumAC = a + c;
     int sumBC = b + c;
     boolean isTriangle = (sumAB >= c && sumAC >= b && sumBC >= a);
-    System.out.println(a + " , " + b + " , " + c + " : " + isTriangle );
+    System.out.println(a + " ," + b + " ," + c + " :" + isTriangle );
 	}
 }
